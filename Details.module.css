@@ -1,0 +1,75 @@
+.main {
+ 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.piechart {
+ 
+  height: 256px;
+  width: 480px;
+  left: 0px;
+  top: 0px;
+  margin-top: 40px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.pie {
+  position: absolute;
+  
+
+  left: 30px;
+  top: 40px;
+  border-radius: 0px;
+}
+
+.pyleft {
+  
+  width: 50%;
+}
+.pyright {
+  
+  width: 50%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+  position: absolute;
+  width: 77px;
+  height: 17px;
+  left: 320px;
+  top: 20px;
+}
+.todo {
+  border: 3px solid orange;
+  height: 256px;
+  width: 480px;
+  margin-top: 40px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+}
+
+.piheading {
+  height: 22px;
+  width: 125px;
+  left: 420px;
+  top: 718px;
+  
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 30px;
+
+  color: #000000;
+}
+

@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&family=Poppins&display=swap");
+
+.left {
+  position: absolute;
+  width: 588px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+}
+
+.right {
+  position: absolute;
+  width: 900px;
+  height: 1024px;
+  left: 588px;
+  top: 0px;
+  background: #f5f5f5;
+  /* background: #00fffb; */
+}
+.board {
+  position: absolute;
+  width: 246px;
+  height: 88px;
+  left: 171px;
+  top: 464px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+.signin {
+  position: absolute;
+  width: 131px;
+  height: 40px;
+  left: 240px;
+  top: 150px;
+
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.signin2 {
+  position: absolute;
+  height: 19px;
+  width: 180px;
+  left: 245px;
+  top: 208px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.google {
+  position: absolute;
+  width: 180px;
+  left: 240px;
+  top: 270px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  color: #727272;
+}
+
+.apple {
+  padding: 10px;
+  border-radius: 10px;
+
+  position: absolute;
+  cursor: pointer;
+  width: 180px;
+  left: 440px;
+  top: 270px;
+  font-size: 14px;
+  font-weight: 400;
+  background: #ffffff;
+  border: none;
+  color: #858585;
+}
+
+.card {
+  padding: 20px;
+  /* border: 2px solid black; */
+  position: absolute;
+  width: 375px;
+  height: 350px;
+  left: 240px;
+  top: 338px;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  font-family: "Lato";
+  padding: 8px;
+  font-size: 18px;
+  color: #000000;
+  margin: 25px 0 5px 0;
+}
+
+.password {
+  font-family: "Lato";
+  padding: 8px;
+  color: #000000;
+
+  font-size: 18px;
+  margin: 25px 0 5px 0;
+}
+
+.inputfield {
+  height: 20px;
+  padding: 10px;
+  background: #eaeaea;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.forget {
+  text-decoration: none;
+  margin-top: 12px;
+  padding: 6px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn {
+  background-color: #000000;
+  font-family: "Montserrat";
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.noaccount {
+  position: absolute;
+  /* height: 19px; */
+  width: 261px;
+  left: 320px;
+  top: 735px;
+  border-radius: 10px;
+  padding: 12px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.register {
+  text-decoration: none;
+  margin-left: 6px;
+}
+/* *********************************** signup css **************************** */
+.signup{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 240px;
+  top: 190px;
+
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+.signup2 {
+  position: absolute;
+  height: 19px;
+  width: 250px;
+  left: 245px;
+  top: 250px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.errormsg{
+  text-align: center;
+  padding:10px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}

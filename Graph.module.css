@@ -1,0 +1,40 @@
+.table {
+  background: #ffffff;
+  
+  height: 350px;
+  width: 1150px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+.graphheading {
+ 
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  line-height: 22px;
+  color: #000000;
+  padding-left: 40px;
+}
+
+.month {
+  
+  margin-top: 0;
+  padding-left: 40px;
+  font-family: "Montserrat";
+  font-size: 14px;
+
+  line-height: 17px;
+}
+
+.arrow {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 174px;
+  top: 285px;
+
+  cursor: pointer;
+}
